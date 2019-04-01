@@ -10,4 +10,5 @@ Custom Screen Recording Plugin for Froala Editor
 ## Live Demo
 
 **Demo Website:** [https://capturly.herokuapp.com](https://capturly.herokuapp.com/)
+
 FYI: You can find the html, css and javascript on the page and that can help you for customizing more.
