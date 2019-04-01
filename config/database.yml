@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: postgres
+  host: localhost
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: ScreenRecordingOnRails_development
+  password: postgres
+  
+test:
+  <<: *default
+  database: ScreenRecordingOnRails_test
+  password: postgres
+
+production:
+  <<: *default
+  database: ScreenRecordingOnRails_production
+  username: ScreenRecordingOnRails
+  password: <%= ENV['SCREENRECORDINGONRAILS_DATABASE_PASSWORD'] %>

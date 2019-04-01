@@ -1,0 +1,9 @@
+development:
+  cloud_name: "screenrecording"
+  api_key: "12345678"
+  api_secret: "123456789"
+
+production:
+  cloud_name: "screenrecording"
+  api_key: "12345678"
+  api_secret: "123456789"

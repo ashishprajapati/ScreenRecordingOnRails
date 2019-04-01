@@ -1,0 +1,32 @@
+<!-- foala -->
+<link href="//cdn.jsdelivr.net/npm/froala-editor@2.5.1/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+<link href="//cdn.jsdelivr.net/npm/froala-editor@2.5.1/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/froala-editor@2.5.1//js/froala_editor.pkgd.min.js"></script>
+
+<link rel="stylesheet" href="//cdn.webrtc-experiment.com/style.css">
+<script src="//cdn.webrtc-experiment.com/RecordRTC.js"></script>
+
+<!-- web streams API polyfill to support Firefox -->
+<script src="//unpkg.com/@mattiasbuelens/web-streams-polyfill/dist/polyfill.min.js"></script>
+
+<!-- ../libs/DBML.js to fix video seeking issues -->
+<script src="//cdn.webrtc-experiment.com/EBML.js"></script>
+
+<!-- for Edge/FF/Chrome/Opera/etc. getUserMedia support -->
+<script src="//webrtc.github.io/adapter/adapter-latest.js"></script>
+<script src="//cdn.webrtc-experiment.com/DetectRTC.js"> </script>
+
+<!-- video element -->
+<link href="//cdn.webrtc-experiment.com/getHTMLMediaElement.css" rel="stylesheet">
+<script src="//cdn.webrtc-experiment.com/getHTMLMediaElement.js"></script>
+<style>
+  li {border-bottom: 1px solid rgb(189, 189, 189);border-left: 1px solid rgb(189, 189, 189);padding: .5em;}
+  label {display: inline-block;width: 8em;}
+  h1 span {background: yellow;border: 2px solid #8e1515;padding: 2px 8px;margin: 2px 5px;border-radius: 7px;color: #8e1515;display: inline-block;}
+  .recordrtc button {font-size: inherit;}
+  .recordrtc button, .recordrtc select {vertical-align: middle;line-height: 1;padding: 2px 5px;height: auto;font-size: inherit;margin: 0;}
+  .recordrtc, .recordrtc .header {display: block;text-align: center;padding-top: 0;}
+  .recordrtc video, .recordrtc img {max-width: 100%!important;vertical-align: top;}
+  .recordrtc audio {vertical-align: bottom;}
+  .recordrtc option[disabled] {display: none;}.recordrtc select {font-size: 17px;}
+</style>
